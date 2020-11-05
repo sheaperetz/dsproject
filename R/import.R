@@ -5,8 +5,16 @@
 #' @param file name of file in path.
 #' @param ... passes additional parameters into file options.
 #'
+#' @import haven readxl vroom
+#'
 #' @export
 #' @return dataframe object
+#' @seealso
+#' * [haven::read_sas()] read sas files
+#' * [haven::read_stata()] read stata files
+#' * [haven::read_spss()] read spss files
+#' * [readxl::read_excel()] read excel files
+#' * [vroom::vroom()] reads files quicker
 #' @examples
 #' #import(data.csv)
 import <- function(file, ...){

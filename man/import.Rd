@@ -20,3 +20,12 @@ This function imports a variety of different data files.
 \examples{
 #import(data.csv)
 }
+\seealso{
+\itemize{
+\item \code{\link[haven:read_sas]{haven::read_sas()}} read sas files
+\item \code{\link[haven:read_dta]{haven::read_stata()}} read stata files
+\item \code{\link[haven:read_spss]{haven::read_spss()}} read spss files
+\item \code{\link[readxl:read_excel]{readxl::read_excel()}} read excel files
+\item \code{\link[vroom:vroom]{vroom::vroom()}} reads files quicker
+}
+}
