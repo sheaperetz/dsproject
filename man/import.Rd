@@ -18,7 +18,7 @@ dataframe object
 This function imports a variety of different data files.
 }
 \examples{
-#import(data.csv)
+\dontrun{import(data.csv)}
 }
 \seealso{
 \itemize{

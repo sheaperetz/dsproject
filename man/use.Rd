@@ -13,5 +13,5 @@ use(pkg)
 This function allows user to require a package
 }
 \examples{
-#use(ggplot2)
+\dontrun{use(ggplot2)}
 }

@@ -11,7 +11,7 @@
 #' @export
 #' @return NULL
 #' @examples
-#' #make_project(cats)
+#' \dontrun{make_project(cats)}
 make_project <- function (project,
                   path = getwd(),
                   folders = c("figures", "documentation",

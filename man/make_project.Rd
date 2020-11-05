@@ -27,5 +27,5 @@ make_project(
 This function creates an R project with relevant folders in project location.
 }
 \examples{
-#make_project(cats)
+\dontrun{make_project(cats)}
 }

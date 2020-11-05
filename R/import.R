@@ -16,7 +16,7 @@
 #' * [readxl::read_excel()] read excel files
 #' * [vroom::vroom()] reads files quicker
 #' @examples
-#' #import(data.csv)
+#' \dontrun{import(data.csv)}
 import <- function(file, ...){
 
   # if no file specified, prompt user
