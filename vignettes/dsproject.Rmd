@@ -1,0 +1,25 @@
+---
+title: "Introduction to dsproject package"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{dsproject}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+# Introduction
+
+Here is an example using the `dsproject` package.
+```{r setup, eval=FALSE}
+library(dsproject)
+import(data.csv)
+use(ggplot2)
+make_project(data)
+```

@@ -1,0 +1,18 @@
+Package: dsproject
+Title: Project Functions
+Version: 0.0.0.1
+Authors@R: 
+    person(given = "Shea",
+           family = "Peretz",
+           role = c("aut", "cre"),
+           email = "lperetz@wesleyan.edu")
+Description: Makes a project and includes useful function to load packages and files.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
